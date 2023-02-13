@@ -1,12 +1,10 @@
 import React, { useEffect, useState, useRef } from 'react'
 import styled from 'styled-components'
 import AppService from '../Appservices/Appservice'
-import Arrow from '../../Assets/Images/chevron.png'
 
 export const ImageSlider = () => {
     const [slide, setSlide] = useState(1)
     const [slideCount, setSlideCount] = useState(1)
-    const divRef = useRef(null)
     const [data, setData] = useState([])
 
     useEffect(() => {
