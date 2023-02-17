@@ -67,15 +67,5 @@ const StyledSlider = styled.div`
     margin-top: -10vw;
     overflow: hidden;
     width: 100vw;
-    height: 45vw;
-    h2 {
-        position: absolute;
-        z-index: 10;
-        left: 30vw;
-        top: 15vw;
-        font-size: 5vw;
-        font-family: Lobster;
-        color: white;
-        text-shadow: rgba(0, 0, 0, 0.733) 0px 5px 25px;
-    }
+    height: 35vw;
 `

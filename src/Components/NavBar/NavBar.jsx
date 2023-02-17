@@ -7,7 +7,7 @@ export const NavBar = () => {
   return (
     <StyledNav>
         <div className="content">
-        <h2>HomeLands</h2>
+        <Link to="/"><h2>HomeLands</h2></Link>
         <Link to="/">Forside</Link>
         <Link to="/homes-for-sale">Boliger til salg</Link>
         <Login />
@@ -19,6 +19,7 @@ export const NavBar = () => {
 }
 
 const StyledNav = styled.nav`
+width: 100vw;
 .content {
     position: relative;
     z-index: 10;
@@ -31,7 +32,7 @@ const StyledNav = styled.nav`
         margin: 5vw 35vw 0vw 0;
         letter-spacing: 0.1vw;
         font-size: 3.5vw;
-        font-family: "Odibee";
+        font-family: "Odibee sans", sans-serif;
         color: white;
         font-weight: 100;
         background-color: #AF7627;
@@ -42,13 +43,13 @@ const StyledNav = styled.nav`
         border: none;
         border-radius: 2px 0px 0px 2px;
         font-size: 1.3vw;
-        margin-right: 3vw;
+        margin-right: 4vw;
     }
     .nav-button {
         margin: 0 1vw 0 0;
         letter-spacing: 0.1vw;
         font-size: 1.5vw;
-        font-family: "Odibee";
+        font-family: "Odibee sans", sans-serif;
         background-color: transparent;
         border: none;
         cursor: pointer;
@@ -61,7 +62,7 @@ a {
     margin: 0 1vw 0 0;
     letter-spacing: 0.1vw;
     font-size: 1.5vw;
-    font-family: "Odibee";
+    font-family: "Odibee sans", sans-serif;
     color: white;
     text-decoration: none;
     &:hover {

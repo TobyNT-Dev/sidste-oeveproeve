@@ -146,7 +146,7 @@ left: 0;
         }
         .error {
           color: red;
-          font-family: serif;
+          font-family: sans-serif;
         }
         label {
           display: flex;
@@ -166,6 +166,7 @@ left: 0;
             }
         }
         button {
+          width: 6vw;
             padding: 0.5vw 1vw;
             color: lightgrey;
             display: block;
